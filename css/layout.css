@@ -1,0 +1,100 @@
+#divA{
+  width: 960px;
+  height: 100px;
+  line-height: 100px;
+
+  border: black solid 1px;
+}
+
+#divB {
+  width: 200px;
+  height: 600px;
+  line-height: 600px;
+  border-left: black solid 1px;
+  border-bottom:black solid 1px ;
+}
+
+#divC {
+  width: 380px;
+  height: 200px;
+  line-height: 200px;
+
+  border: black solid 1px;
+  position: relative;
+  bottom: 600px;
+  left: 200px;
+  border-top: 0px;
+  border-bottom: 0px;
+
+}
+
+#divD {
+  width: 380px;
+  height: 200px;
+  line-height: 200px;
+
+  border: black solid 1px;
+  position: relative;
+  bottom: 800px;
+  left: 580px;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0px;
+
+}
+
+#divE {
+  width: 190px;
+  height: 250px;
+  line-height: 250px;
+
+  border: black solid 1px;
+  position: relative;
+  bottom: 800px;
+  left: 200px;
+}
+
+#divF {
+  width: 190px;
+  height: 250px;
+  line-height: 250px;
+
+  border: black solid 1px;
+  position: relative;
+  bottom: 1050px;
+  left: 390px;
+  border-right: 0;
+  border-left: 0;
+}
+
+#divG {
+  width: 190px;
+  height: 250px;
+  line-height: 250px;
+
+  border: black solid 1px;
+  position: relative;
+  bottom: 1300px;
+  left: 579px;
+  border-right: 0;
+}
+#divH {
+  width: 190px;
+  height: 250px;
+  line-height: 250px;
+  border: black solid 1px;
+  position: relative;
+  bottom: 1550px;
+  left: 770px;
+}
+
+#divI {
+  width: 760px;
+  height: 150px;
+  line-height: 150px;
+  border: black solid 1px;
+  position: relative;
+  bottom: 1550px;
+  left: 200px;
+  border-top: 0;
+}
