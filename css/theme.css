@@ -1,0 +1,78 @@
+@media(max-width: 960px) and (min-width: 786px){
+#divA{
+  background-color: #fec5bb;
+}
+#divB{
+  background-color: #fcd5ce;
+}
+
+#divC{
+  background-color: #fae1dd;
+}
+
+#divD{
+  background-color: #e8e8e4;
+}
+
+
+#divE{
+  background-color: #d8e2dc;
+}
+
+#divF{
+  background-color: #ece4db;
+}
+
+#divG{
+  background-color: #ffe5d9;
+}
+
+
+#divH{
+  background-color: #ffd7ba;
+}
+
+#divI{
+  background-color: #fec89a;
+}
+}
+
+
+@media(max-width: 767px) and (min-width: 480px){
+  #divA{
+    background-color: #dfd2cf;
+  }
+  #divB{
+    background-color: #cab9b6;
+  }
+  
+  #divC{
+    background-color: #d3c2c0;
+  }
+  
+  #divD{
+    background-color: #cfcfcc;
+  }
+  
+  
+  #divE{
+    background-color: #767c78;
+  }
+  
+  #divF{
+    background-color: #b4aea7;
+  }
+  
+  #divG{
+    background-color: #cec0b9;
+  }
+  
+  
+  #divH{
+    background-color: #f7ebe2;
+  }
+  
+  #divI{
+    background-color: #726e6b;
+  }
+  }
