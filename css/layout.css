@@ -84,18 +84,29 @@
   height: 80px;
   line-height: 80px;
   border: black solid 1px;
-  float: left;
+  /* float: left; */
   border-top:0 ;
 
  
 }
-.left{
+
+.container{
+  display: grid;
+  grid-template-rows: repeat(7);
+}
+
+.nested{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+/* .left{
   float:left; width:50%;
 }
 
 .left1{
   float:left; width:50%;
-}
+} */
 
 
 }
@@ -125,9 +136,9 @@
   line-height: 200px;
 
   border: black solid 1px;
-  position: relative;
+  /* position: relative;
   bottom: 600px;
-  left: 200px;
+  left: 200px; */
   border-top: 0px;
   border-bottom: 0px;
 
@@ -139,9 +150,9 @@
   line-height: 200px;
 
   border: black solid 1px;
-  position: relative;
+  /* position: relative;
   bottom: 800px;
-  left: 580px;
+  left: 580px; */
   border-top: 0;
   border-left: 0;
   border-bottom: 0px;
@@ -154,9 +165,9 @@
   line-height: 250px;
 
   border: black solid 1px;
-  position: relative;
+  /* position: relative;
   bottom: 800px;
-  left: 200px;
+  left: 200px; */
 }
 
 #divF {
@@ -165,9 +176,9 @@
   line-height: 250px;
 
   border: black solid 1px;
-  position: relative;
+  /* position: relative;
   bottom: 1050px;
-  left: 390px;
+  left: 390px; */
   border-right: 0;
   border-left: 0;
 }
@@ -178,9 +189,9 @@
   line-height: 250px;
 
   border: black solid 1px;
-  position: relative;
+  /* position: relative;
   bottom: 1300px;
-  left: 579px;
+  left: 579px; */
   border-right: 0;
 }
 #divH {
@@ -188,19 +199,45 @@
   height: 250px;
   line-height: 250px;
   border: black solid 1px;
-  position: relative;
+  /* position: relative;
   bottom: 1550px;
-  left: 770px;
+  left: 770px; */
 }
 
 #divI {
   width: 760px;
   height: 150px;
   line-height: 150px;
-  border: black solid 1px;
+  /* border: black solid 1px;
   position: relative;
   bottom: 1550px;
-  left: 200px;
+  left: 200px; */
   border-top: 0;
 }
+
+ .container{
+  display: grid;
+  grid-template-rows: repeat(6);
+}
+.firstDiv{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+}
+.nested{
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+
+
+
+
+}
+
+
+ #divB{
+  grid-row:1/4;
+  grid-column: 1;
+
+} 
+
+
 }
