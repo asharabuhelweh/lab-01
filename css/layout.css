@@ -1,5 +1,18 @@
-@media(max-width: 767px) and (min-width: 480px){
+@media ( max-width: 767px) and ( min-width: 480px){
+
+  body{
+    width: 480px;
+  }
+  .container{
+    display: grid;
+    grid-template-rows: repeat(7);
+    grid-template-columns: 50% 50%;
+
+  }
+
 #divA{
+  grid-row: 1/2;
+  grid-column: 1/3;
   width: 480px;
   height: 75px;
   line-height: 75px;
@@ -8,6 +21,9 @@
 }
 
 #divB {
+  grid-row: 2/3;
+  grid-column: 1/3;
+
   width: 480px;
   height: 150px;
   line-height: 150px;
@@ -16,6 +32,9 @@
 }
 
 #divC {
+  grid-row: 3/4;
+  grid-column: 1/3;
+
   width: 480px;
   height: 125px;
   line-height: 125px;
@@ -27,6 +46,8 @@
 }
 
 #divD {
+  grid-row: 4/5;
+  grid-column: 1/3;
   width: 480px;
   height: 125px;
   line-height: 125px;
@@ -38,7 +59,8 @@
 }
 
 #divE {
-  width: 240px;
+  grid-row: 5/6;
+  grid-column: 1/2;
   height: 250px;
   line-height: 250px;
 
@@ -52,7 +74,8 @@
 }
 
 #divF {
-  width: 240px;
+  grid-row: 5/6;
+  grid-column: 2/3;
   height: 250px;
   line-height: 250px;
 
@@ -63,6 +86,8 @@
 }
 
 #divG {
+  grid-row: 6/7;
+  grid-column: 1/2;
   width: 240px;
   height: 250px;
   line-height: 250px;
@@ -72,6 +97,8 @@
   border-right: 0;
 }
 #divH {
+  grid-row: 6/7;
+  grid-column: 2/3;
   width: 240px;
   height: 250px;
   line-height: 250px;
@@ -84,26 +111,29 @@
   height: 80px;
   line-height: 80px;
   border: black solid 1px;
-  float: left;
   border-top:0 ;
 
  
 }
-.left{
-  float:left; width:50%;
-}
-
-.left1{
-  float:left; width:50%;
-}
-
 
 }
 
 
 
-@media(max-width: 960px) and (min-width: 786px){
+@media(min-width: 960px) {
+body{
+  width: 960px;
+}
+  .container{
+    width: 960.5px;
+    display: grid;
+    grid-template-rows: 100px 200px 250px 150px;
+    grid-template-columns: repeat(5);
+    border: 0px;
+  }
 #divA{
+  grid-row: 1/2;
+  grid-column: 1/6;
   width: 960px;
   height: 100px;
   line-height: 100px;
@@ -112,22 +142,26 @@
 }
 
 #divB {
-  width: 200px;
-  height: 600px;
+  grid-row: 2/5;
+  grid-column: 1/2;
+
+  width: 200.01px;
+  height: 600.01px;
   line-height: 600px;
   border-left: black solid 1px;
   border-bottom:black solid 1px ;
 }
 
 #divC {
+  grid-row: 2/3;
+  grid-column: 2/4;
+
   width: 380px;
   height: 200px;
   line-height: 200px;
 
   border: black solid 1px;
-  position: relative;
-  bottom: 600px;
-  left: 200px;
+  
   border-top: 0px;
   border-bottom: 0px;
 
@@ -139,9 +173,7 @@
   line-height: 200px;
 
   border: black solid 1px;
-  position: relative;
-  bottom: 800px;
-  left: 580px;
+  
   border-top: 0;
   border-left: 0;
   border-bottom: 0px;
@@ -149,58 +181,187 @@
 }
 
 #divE {
+  grid-row: 3/4;
+  grid-column: 2/3;
   width: 190px;
   height: 250px;
   line-height: 250px;
 
   border: black solid 1px;
-  position: relative;
-  bottom: 800px;
-  left: 200px;
+  
 }
 
 #divF {
+  grid-row: 3/4;
+  grid-column: 3/4;
   width: 190px;
   height: 250px;
   line-height: 250px;
 
   border: black solid 1px;
-  position: relative;
-  bottom: 1050px;
-  left: 390px;
+  
   border-right: 0;
   border-left: 0;
 }
 
 #divG {
+  grid-row: 3/4;
+  grid-column: 4/5;
   width: 190px;
   height: 250px;
   line-height: 250px;
 
   border: black solid 1px;
-  position: relative;
-  bottom: 1300px;
-  left: 579px;
+  
   border-right: 0;
 }
 #divH {
+  grid-row: 3/4;
+  grid-column: 5/6;
   width: 190px;
   height: 250px;
   line-height: 250px;
-  border: black solid 1px;
   position: relative;
-  bottom: 1550px;
-  left: 770px;
+  right: 190px;
+  border: black solid 1px;
 }
 
 #divI {
+  grid-row: 4/5;
+  grid-column: 2/6;
   width: 760px;
   height: 150px;
   line-height: 150px;
-  border: black solid 1px;
-  position: relative;
-  bottom: 1550px;
-  left: 200px;
+   border: black solid 1px;
+  
   border-top: 0;
 }
+
+ 
+
+
 }
+
+
+
+/* @media(min-width: 768) {
+  body{
+    width: 768px;
+  }
+    .container{
+      width: 768px;
+      display: grid;
+      grid-template-rows: 100px 200px 250px 150px;
+      grid-template-columns: repeat(5);
+      border: 0px;
+    }
+  #divA{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+  
+    border: black solid 1px;
+  }
+  
+  #divB {
+    grid-row: 2/5;
+    grid-column: 1/2;
+  
+    width: 200.01px;
+    height: 600.01px;
+    line-height: 600px;
+    border-left: black solid 1px;
+    border-bottom:black solid 1px ;
+  }
+  
+  #divC {
+    grid-row: 2/3;
+    grid-column: 2/4;
+  
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  
+    border: black solid 1px;
+    
+    border-top: 0px;
+    border-bottom: 0px;
+  
+  }
+  
+  #divD {
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  
+    border: black solid 1px;
+    
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0px;
+  
+  }
+  
+  #divE {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  
+    border: black solid 1px;
+    
+  }
+  
+  #divF {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  
+    border: black solid 1px;
+    
+    border-right: 0;
+    border-left: 0;
+  }
+  
+  #divG {
+    grid-row: 3/4;
+    grid-column: 4/5;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  
+    border: black solid 1px;
+    
+    border-right: 0;
+  }
+  #divH {
+    grid-row: 3/4;
+    grid-column: 5/6;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+    position: relative;
+    right: 190px;
+    border: black solid 1px;
+  }
+  
+  #divI {
+    grid-row: 4/5;
+    grid-column: 2/6;
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+     border: black solid 1px;
+    
+    border-top: 0;
+  }
+  
+   
+  
+  
+  } */
